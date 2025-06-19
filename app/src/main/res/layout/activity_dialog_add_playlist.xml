@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Dialog_add_playlist">
+
+    <EditText
+        android:id="@+id/SongTitleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Song Title"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/ArtistNameEditTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Artist Name"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/Rating1to5EditTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Rating (1-5)"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/UsercommentsEditTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="User comments"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+</LinearLayout>
